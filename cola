@@ -1,0 +1,146 @@
+TAGS DO HTML
+<html> -> começa um programa em html
+</html> -> termina o programa em html
+<head>-> começa a cabeça do programa(configurações) 
+</head> -> termina as configurações
+<body>-> começa o corpo do site 
+</body> -> termina o corpo do site
+<p> -> começa um paragrafo
+</p> -> termina um paragrafo
+<style>-> começa a estilização do site ( efeitos visuais)
+</style> -> termina os efeitos visuais
+<h1>-> começa o texto de importancia 1
+</h1> -> termina o texto de importancia 1
+<h6> -> começa um texto de importancia 6
+</h6> -> termina o texto de importancia 6 
+<img> -> coloca uma imagem no site
+<link rel="stylesheet" href="css/style.css"> -> conecta o html com arquivos de estilização
+<div> -> começa uma divisao de conteudo 
+</div> -> termina uma divisão de conteudo
+<form> -> começa um formulario
+</form> -> termina um formulario
+<input> -> cria um campo para o usuario poder interagir
+<select> -> começa um campo de multipla escolha
+</select> -> termina um campo de multipla escolha
+<option> -> começa uma opção dentro do select
+</option> -> termina uma opção dentro do select
+<textarea> -> começa um campo grande para textos
+</textarea>-> termina um campo grande para textos
+<label>-> indica um texto para se conectar
+</label> -> fim da indicação um texto para se conectar
+<header>-> semelhante uma div porem usada no inicio
+<main>->semelhante a uma div porem usava no meio 
+<footer>-> semelhante a uma div porem usada no fim
+<section>-> semelhante a uma div porem usada em um grupo grande
+<nav>indicacao a navegação principal do site
+<ul>unorded list(lista nao ordenada)
+<li>list item->item dentro da lista
+
+<!-- Comentario aqui -->
+
+---------------------------------------
+sub comandos do html (parametros ou atributos)
+src="" -> permite escolher a imagem dentro do IMG
+href="" -> permite uma referencia com arquivo externo
+class="" -> Cria um "apelido" que classifica o elemento
+id="" -> Cria um "apelido" que identifica o elemento
+type="text" -> permite ao input armazenar textos
+type="number"-> permite ao input aceitar somente numeros
+type="checkbox"-> permite ao input se transforma em um quadrado
+type="radio"->permite ao input se transforma em um circulo
+type="submit"-> executa o form enviando as informações para outra linguagem
+placeholder="dica aqui" -> coloca uma dica para o usuario
+value="texto aqui" -> pré preenche um input
+readonly -> faz o input ser somente leitura (bloqueia mudanças) 
+for="ze" -> faz com que o label se conecte a um id
+
+
+
+---------------------------------------
+Comandos de CSS
+
+elemento{
+    color:red; -> muda a cor do texto
+    font-size: 30px; -> muda o tamanho do texto
+    font-weight:900; -> aplica negrito no texto
+    font-family: sans-serif; -> muda a fonte do texto
+    
+    width: 50%; -> largura
+    height: 500px; -> Altura
+    padding-top: 50px -> afasta o elemento em cima (dentro)
+    padding-botton:50px -> afasta o elemento em baixo (dentro)
+    padding-left:50px -> afasta o elemento na esquerda (dentro)
+    padding-right:50px -> afasta o elemento na direita (dentro)
+    padding:50px -> afasta os elementos em todos os lados (dentro)
+    margin-top: 50px -> afasta o elemento em cima (fora)
+    margin-botton:50px -> afasta o elemento em baixo(fora)
+    margin-left:50px -> afasta o elemento na esquerda(fora)
+    margin-right:50px -> afasta o elemento na direita(fora)
+    margin:50px -> afasta os elementos em todos os lados(fora)
+    border:5px solid blue; -> espessura tipo cor
+    display block: transforma inline-lvl em box-lvl
+    display:flex: transforma o grupo de box-lvl em inline-lvl
+    /* comentario aqui */
+    flex-wrap: wrap; permite todo elemento flex para que ele quebre a linha apos atingir o limite do componente
+    backgorund-color: red; -> muda a cor de fundo
+    background:linear gradient -> combinação de cores (cssgradient)
+    background-imagem:url(../imagem/nomeDaImagem.jpg) -> imagem de fundo
+    background-repeat:no-repeat -> para não repetir o background
+    background-size:cover -> estica a imagem até o fim da tela
+    text-align: center -> centraliza
+    text-align: left ->   alinha a esquerda
+    text-align: right ->  alinha a direita
+    text-align: justify -> distribui o texto uniforme na tela
+    box-sizing: border-box faz com que o calculo dp programa seja feito para dentro do elementoquando aplicamos bordas ou padding
+    display:inline-block; faz com que os elementos fiquem na linha(usado junto do li)
+    text-transform:uppercase;->transforma o texto em letra maiuscula
+
+
+}
+
+-----------------------------------------------------
+
+sub comandos do css(pseudo classe)
+.ze:hover->aplica o efeito quando passar o mouse por cima.
+.ze:active->aplica o efeito quando clicar e segurar no elemento.
+.ze:target->aplica o efeito quando clicado e gerado um id 
+
+----------------------------------------------
+Box -lvl -> todo comando que bloqueia o espaço a frente
+
+inline-lvl -> todo comando que não bloqueia o espaço a frente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:visited -> aplica uma configuração em um link ja visitado
+overflow: hidden -> quando um elemento vaza do tamanho ele oculta tudo que vazar
+box-sizing: border-box;
+min-width: 200px;
+max-width:800px;
+transition-duration: 1s; // usado para transição mais suave no hover
+border-collapsu: collapse -> tira as margins automaticas de uma tabela
+vertical align: equivalente ao text align porem na vertical
+
+
+<thead>
+<tbody>
+<tfoot>
+<th> -> titulos nas tabelas
+<caption>
+
+https://www.flaticon.com/
+https://icons8.com.br/
